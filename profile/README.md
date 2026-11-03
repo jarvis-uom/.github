@@ -4,7 +4,7 @@
 
 **IS4990 Comprehensive Group Project · Group 6 · University of Moratuwa**
 
-How much water do Sri Lanka's tanks hold today? We answer that from free satellite data, under cloud too.
+How much water do Sri Lanka's tanks hold today? We are building a way to answer that from free satellite data, under cloud too.
 
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fswot.mehara.work&label=website)](https://swot.mehara.work)
 [![Proposal](https://img.shields.io/badge/proposal-approved-2ea44f)](https://github.com/jarvis-uom/IS4990-project/releases/tag/proposal-v1.0)
@@ -36,7 +36,7 @@ How much water do Sri Lanka's tanks hold today? We answer that from free satelli
 
 ## Latest (3 Nov 2026)
 
-- **Under cloud, only radar works.** At about 100 reservoirs, our radar U-Net reads storage within 11 to 12% of capacity, against 20 to 22% with no model.
+- **Under cloud, only radar works.** At about 100 reservoirs, our radar U-Net reads storage within 11 to 12% of capacity, against 14% for the seasonal average and 20 to 22% with no model.
 - **Retrained on our own reservoirs** (103 reservoirs, rules fixed in advance), it reads storage within 7.9% of capacity and beats the last clear photo at 81% of reservoirs. It lost flood-mapping skill on an outside test, so by our own rules it is not yet a win.
 - **Open data:** our two reservoir image datasets (117 reservoirs, 2020 to 2026) are public on Kaggle.
 
