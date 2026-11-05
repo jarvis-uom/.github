@@ -40,6 +40,7 @@ How much water do Sri Lanka's tanks hold today? We are building a way to answer 
 - **Retrained on our own reservoirs** (two runs, 103 reservoirs, rules fixed in advance), it reads storage within about 8% of capacity, against 11% for the model it started from, and it beats the last clear photo at 81% of reservoirs. It still loses some flood-mapping skill on an outside test, so by our own rules it is not yet a win.
 - **Checked against expert water maps:** on 15 scenes of the public S1S2-Water dataset that it never saw, the retrained model maps water at IoU 60 (F1 75), against 53 before retraining and 34 for a simple radar threshold.
 - **Run 4 cut the false water on dry land:** with expert-labelled scenes added to training, it scores 86 on those 15 scenes. It loses a little on our reservoirs and on floods, so by our rules it is not a win yet.
+- **Run 5 is now Module A's model:** with more of our own reservoirs in each batch, it keeps the gain on those 15 scenes (85 against 65) and passes all four of its rules, by small margins at home. Its final version is trained on all 103 reservoirs.
 - **Open data:** our two reservoir image datasets (117 reservoirs, 2020 to 2026) are public on Kaggle.
 
 ## Find your way
